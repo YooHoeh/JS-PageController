@@ -29,6 +29,7 @@ function renderGalleryItem(item) {
   aItem.innerHTML = inner;
   return aItem;
 }
+```
 
 ## 4.执行分页渲染函数
 
