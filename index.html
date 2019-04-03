@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .root {
+        background-color: pink;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
-  <style>
-    .root {
-      background-color: pink;
-    }
+      .card {
+        background-color: aqua;
+        width: 200px;
+        height: 100px;
+      }
 
-    .card {
-      background-color: aqua;
-      width: 200px;
-      height: 100px;
-    }
+      #nav {
+        background-color: red;
+        width: 300px;
+      }
 
-    #nav {
-      background-color: red;
-      width: 300px;
-    }
+      #nav b {
+        margin-right: 8px;
+      }
+    </style>
+  </head>
 
-    #nav b {
-      margin-right: 8px;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- <button id="btn">btn</button> -->
-  <div id="nav"></div>
-  <div class="user admin root" id="target"></div>
-  <script src="./test.js"></script>
-</body>
-
+  <body>
+    <div id="nav"></div>
+    <div class="user admin root" id="target"></div>
+    <script src="./pageController.js"></script>
+  </body>
 </html>
